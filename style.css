@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    width: 100%;
+    background-image: url(pic1.png);
+    background-size: cover;
+    height: 470px;
+}
+
+.first .heading1 {
+    color: white;
+    width: 15%;
+    margin-left: 30%;
+    margin-top: 8%;
+    letter-spacing: 1px;
+}
+
+.first .para1 {
+    color: white;
+    width: 22%;
+    margin-left: 30%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.content {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .heading2 {
+    font-size: 1.4em;
+    width: 40%;
+    text-align: center;
+}
+
+.content .para2 {
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.second {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sales,
+.commision,
+.bonus,
+.gift {
+    text-align: center;
+    width: 20%;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+    border: 2px solid #7FFFD4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sales h3,
+.commision h3,
+.bonus h3,
+.gift h3 {
+    font-size: 1.3em;
+}
+
+.sales p,
+.commision p,
+.bonus p,
+.gift p {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #5DB5DC;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 520px;
+    margin-top: 5%;
+}
+
+.reward {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.reward .heading3 {
+    font-size: 1.4em;
+}
+
+.reward .points {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.points p {
+    margin-top: 12%;
+    text-align: start;
+    font-size: 1em;
+}
+
+.points ul li {
+    margin-top: 12%;
+}
+
+.pic2 {
+    background-image: url(pic2.png);
+    background-size: cover;
+    width: 40%;
+    margin-top: 0;
+    height: 100%;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    margin-top: 5%;
+}
+
+.terms {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.terms .heading3 {
+    font-size: 1.4em;
+}
+
+.terms .points2 p {
+    width: 70%;
+    align-self: flex-start;
+}
+
+.terms .points2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.points2 p {
+    margin-top: 6%;
+    text-align: start;
+    font-size: 1em;
+}
+
+.points2 ul li {
+    margin-top: 6%;
+}
+
+.pic3 {
+    background-image: url(pic3.png);
+    background-size: cover;
+    width: 30%;
+    margin-top: 0;
+    height: 100%;
+}
+
+.fifth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 510px;
+    margin-top: 5%;
+}
+
+.finish {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.finish .heading5 {
+    font-size: 1.4em;
+    width: 80%;
+}
+
+.finish .points3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.points3 p {
+    margin-top: 6%;
+    text-align: start;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: start;
+}
+
+.points3 ul li {
+    margin-top: 6%;
+    font-size: 0.9em;
+}
+
+.pic4 {
+    background-image: url(pic4.png);
+    background-size: cover;
+    width: 45%;
+    margin-top: 0;
+    height: 100%;
+}
+
+.sixth {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 3%;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+input[type=text] {
+    width: 25%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px gray;
+    color: black;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: solid 2px gray;
+    /*  box-shadow: -1px -1px 10px gray, 1px 1px 10px gray; */
+    box-shadow: inset -1px -1px 5px gray, inset 1px 1px 5px gray;
+}
+
+.submit {
+    width: 15%;
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: #FF7414;
+}
